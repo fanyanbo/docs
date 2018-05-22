@@ -55,10 +55,73 @@ public class XXXApplication extends SkyApplication{
 	...
 ```
 
-跑覆盖率测试
+集成说明中的第5点：
 
-```bash
-$ make test-cov
+```
+//根据实际业务需求实现相应接口
+public class XXXActivity extends CordovaExtActivity
+        implements CordovaExtActivity.CordovaWebViewListener, 
+		   CordovaExtActivity.CordovaWebPageListener, 
+		   CordovaExtActivity.CordovaBusinessDataListener 
+{
+
+    private String mDefaultUrl = "http://beta.webapp.skysrt.com/fyb/webapp/index.html";
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+
+        setCordovaWebViewListener(this);
+        setCordovaBusinessDataListener(this);
+        setCordovaWebPageListener(this);
+
+        LOG.setLogLevel(LOG.VERBOSE);
+
+        super.onCreate(savedInstanceState);
+    }
+
+    @Override
+    public void onSuperCmdInit() {
+        loadUrl(mDefaultUrl);
+    }
+
+    @Override
+    public void onPageStarted(String url) {
+    }
+
+    @Override
+    public void onPageFinished(String url) {
+    }
+
+    @Override
+    public void onPageError(int errorCode, String description, String failingUrl) {
+    }
+
+    @Override
+    public void notifyMessage(String data) {
+    }
+
+    @Override
+    public void notifyLogInfo(String eventId, Map<String, String> map) {
+    }
+
+    @Override
+    public void notifyPageResume(String pageName, Map<String, String> map) {
+    }
+
+    @Override
+    public void notifyPagePause(String pageName) {
+    }
+
+    @Override
+    public String getBusinessData(String data) {
+        return null;
+    }
+
+    @Override
+    public boolean setBusinessData(String data) {
+        return false;
+    }
+}
 ```
 
 ## 贡献
