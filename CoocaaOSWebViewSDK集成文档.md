@@ -18,17 +18,16 @@ CoocaaOSWebViewSDK Android-App集成文档
 
 *兼容Android4.2（android-17）及以上版本，建议在Android6.0（android-23）及以上版本进行开发调试*
 
-集成该SDK时以下步骤非常关键，请仔细阅读：
+集成该SDK时请注意以下说面:
 
 ```
-1. 安装 `Node.js[必须]` `MongoDB[必须]` `Redis[必须]`
-2. 启动 MongoDB 和 Redis
-3. `$ make install` 安装 Nodeclub 的依赖包
-4. `cp config.default.js config.js` 请根据需要修改配置文件
-5. `$ make test` 确保各项服务都正常
-6. `$ node app.js`
-7. visit `http://localhost:3000`
-8. done!
+1. 建议采用Android Studio IDE进行开发
+2. 该SDK为aar，同时它依赖了多个酷开系统jar和aar，但目前没有打包到一个arr中，需要在工程libs下引用多个aar和jar
+3. 需要自定义XXXApplication，继承SkyApplication，同时在AndroidManifest.xml文件中配置android:name=".XXXApplication"
+4. AndroidManifest.xml配置权限:   
+   `<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>`
+   `<uses-permission android:name="android.permission.INTERNET" />`
+5. 创建XXXActivity，集成CordovaExtActivity，在onCreate中调用loadUrl即可加载指定Web页面（建议在onSuperCmdInit中调用）
 ```
 
 ## 代码示例
