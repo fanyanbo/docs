@@ -51,10 +51,14 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
   </tr>
   <tr>
     <td bgcolor=#eeeeee>获取网络连接类型</td>
-    <td>无</td>
+    <td>WiFi或Ethernet</td>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>判断用户是否登录</td>
+    <td>无</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>退出当前登录</td>
     <td>无</td>
   </tr>
    <tr>
