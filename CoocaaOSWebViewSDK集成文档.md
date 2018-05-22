@@ -275,3 +275,4 @@ dependencies {
     compile files('libs/ccUserServiceSDK.jar')
 }
 ```
+将依赖的aar和jar放在工程的libs目录下
