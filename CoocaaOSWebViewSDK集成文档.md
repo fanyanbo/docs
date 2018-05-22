@@ -181,24 +181,6 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >CordovaWebViewListener</th>
-    <th width=60%, bgcolor=yellow>说明</th>
-  </tr>
-  <tr>
-    <td bgcolor=#eeeeee>onPageStarted(String url)</td>
-    <td>不带系统背景，采用默认的错误页面背景，错误页上有“去连网”或“刷新试试”按钮 </td>
-  </tr>
-  <tr>
-    <td bgcolor=#00FF00>onPageFinished(String url)</td>
-    <td>第二个参数决定是否带系统背景，采用默认的错误页面背景，错误页上有“去连网”或“刷新试试”按钮</td>
-  <tr>
-    <td bgcolor=rgb(0,10,0)>onPageError(int errorCode, String desc, String failingUrl)</td>
-    <td>不带系统背景，第二个参数决定是否采用默认的错误页面背景，可自定义错误页面</td>
-  </tr>
-</table>
-
-<table>
-  <tr>
     <th width=40%, bgcolor=yellow >CordovaWebPageListener</th>
     <th width=60%, bgcolor=yellow>说明</th>
   </tr>
