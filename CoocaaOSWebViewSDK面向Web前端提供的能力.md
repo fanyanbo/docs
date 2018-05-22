@@ -91,6 +91,7 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
   <tr>
     <td bgcolor=#00FF00>check应用信息</td>
     <td>类似于获取获取应用信息</td>
+   </tr>
   <tr>
     <td bgcolor=rgb(0,10,0)>启动在线播放</td>
     <td>有两种方式启动播放，只支持全屏播放</td>
@@ -116,8 +117,43 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
     <td>也是调用通用的Activity启动方法</td>
   </tr>
      <tr>
-    <td bgcolor=#eeeeee>...</td>
-    <td>...</td>
+    <td bgcolor=#eeeeee>    ...</td>
+    <td>    ...</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th width=30%, bgcolor=yellow >表三</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>监听网络状态变化</td>
+    <td>无</td>
+  </tr>
+  <tr>
+    <td bgcolor=#00FF00>监听外接设备插拔变化</td>
+    <td>类似于获取获取应用信息</td>
+   </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>监听语音消息</td>
+    <td>有两种方式启动播放，只支持全屏播放</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>监听支付状态变化</td>
+    <td>包括总空间大小，剩余空间大小</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>监听通用状态变化</td>
+    <td>也是调用通用的Activity启动方法</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>监听下载任务状态变化</td>
+    <td>也是调用通用的Activity启动方法</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>监听用户状态变化</td>
+    <td>也是调用通用的Activity启动方法</td>
   </tr>
 </table>
 
