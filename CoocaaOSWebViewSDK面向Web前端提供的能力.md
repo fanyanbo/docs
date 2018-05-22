@@ -157,6 +157,41 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
   </tr>
 </table>
 
+<table>
+  <tr>
+    <th width=30%, bgcolor=yellow >表四</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>监听按返回键down事件</td>
+    <td>在Web页面上按下遥控器返回键时，会通知到Web前端，前提是需要监听返回键down事件</td>
+  </tr>
+  <tr>
+    <td bgcolor=#00FF00>监听按返回键up事件</td>
+    <td>在Web页面上按遥控器返回键抬起时，会通知到Web前端，前提是需要监听返回键up事件</td>
+   </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>监听Resume事件</td>
+    <td>监听Resume事件，同Android Activity的生命周期</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>监听Pause事件</td>
+    <td>监听Pause事件，同Android Activity的生命周期</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>监听按主页键</td>
+    <td>在Web页面上按遥控器主页键时，会通知到Web前端，需要设置监听</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>监听按音量键加减</td>
+    <td>在Web页面上按遥控器按音量键加减时，会通知到Web前端，需要设置监听</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>启动按菜单键</td>
+    <td>在Web页面上按菜单键时，会通知到Web前端，需要设置监听</td>
+  </tr>
+</table>
+
 ## 版本描述
 
 > ``历史更新参见各分支README文档`` [链接地址](https://github.com/fanyanbo/CoocaaOSWebViewSDK) <br/>
