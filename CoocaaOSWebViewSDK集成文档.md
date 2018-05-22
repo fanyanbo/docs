@@ -1,5 +1,5 @@
 
-CoocaaOSWebViewSDK Android-App集成文档
+CoocaaOSWebViewSDK Android App集成文档
 =
 
 ## 基本介绍
