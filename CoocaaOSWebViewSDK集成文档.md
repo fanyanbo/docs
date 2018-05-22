@@ -262,8 +262,8 @@ Android Studio工程build.gradle
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile(name: 'ccExASystemWebViewSDK-debug', ext: 'aar')
-    compile(name: 'ccExACommonUISDK-debug', ext: 'aar')
+    compile(name: 'ccExASystemWebViewSDK-release', ext: 'aar')
+    compile(name: 'ccExACommonUISDK-release', ext: 'aar')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
