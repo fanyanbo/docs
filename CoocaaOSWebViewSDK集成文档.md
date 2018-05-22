@@ -18,7 +18,7 @@ CoocaaOSWebViewSDK Android-App集成文档
 
 *兼容Android4.2（android-17）及以上版本，建议在Android6.0（android-23）及以上版本进行开发调试*
 
-集成该SDK时请注意以下说面:
+集成该SDK时请注意以下几点:
 
 ```
 1. 建议采用Android Studio IDE进行开发
@@ -32,10 +32,28 @@ CoocaaOSWebViewSDK Android-App集成文档
 
 ## 代码示例
 
-跑测试
+集成说明中的第3点：
+```
+//XXXApplication.java文件
+public class XXXApplication extends SkyApplication{
 
-```bash
-$ make test
+    private static final String mTag = "WebViewSDK";
+
+    @Override
+    public void onCreate() {
+        // TODO Auto-generated method stub
+        super.onCreate();
+        Log.i(mTag,"XXXApplication onCreate");
+    }
+}
+
+//AndroidManifest.xml文件，仅修改android:name的名称即可
+<application
+        android:name=".XXXApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+	
+    ...
 ```
 
 跑覆盖率测试
