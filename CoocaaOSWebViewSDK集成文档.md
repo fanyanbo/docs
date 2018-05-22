@@ -163,7 +163,7 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow >CordovaWebViewListener</th>
+    <th width=40%, bgcolor=yellow >CordovaWebViewListener</th>
     <th width=50%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
