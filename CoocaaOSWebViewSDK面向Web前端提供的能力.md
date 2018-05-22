@@ -1,4 +1,4 @@
-CoocaaOSWebViewSDK Android App集成文档
+CoocaaOSWebViewSDK面向Web前端开发提供的能力
 =
 
 ## 基本介绍
@@ -15,8 +15,8 @@ CoocaaOSWebViewSDK Android App集成文档
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >功能</th>
-    <th width=60%, bgcolor=yellow>详细描述</th>
+    <th width=30%, bgcolor=yellow >功能</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>获取版本信息</td>
@@ -24,7 +24,7 @@ CoocaaOSWebViewSDK Android App集成文档
   </tr>
   <tr>
     <td bgcolor=#00FF00>获取设备信息</td>
-    <td>包括panel大小，机芯，机型，soc，MAC地址，激活id，设备id，EMMC，品牌</td>
+    <td>包括屏幕尺寸大小，机芯，机型，soc，激活id，设备id，EMMC，品牌</td>
   <tr>
     <td bgcolor=rgb(0,10,0)>获取内存信息</td>
     <td>包括总内存大小，剩余内存大小</td>
@@ -32,6 +32,34 @@ CoocaaOSWebViewSDK Android App集成文档
   <tr>
     <td bgcolor=#eeeeee>获取空间信息</td>
     <td>包括总空间大小，剩余空间大小</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取用户信息</td>
+    <td>包括sky_id,update_image_times,open_id,visit_num,accessToken，external_avatar等</td>
+  </tr>
+  <tr>
+    <td bgcolor=#00FF00>获取网络基本信息</td>
+    <td>包括dns，gateway，ip地址，mac地址，子网掩码</td>
+  </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>获取定位信息</td>
+    <td>如广东省，深圳市</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取网络连接状态/td>
+    <td>无</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取网络连接类型/td>
+    <td>无</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>判断用户是否登录/td>
+    <td>无</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>获取应用信息/td>
+    <td>根据包名获取应用版本信息，判断是否安装该应用，支持列表查询</td>
   </tr>
 </table>
 
