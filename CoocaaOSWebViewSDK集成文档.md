@@ -172,10 +172,10 @@ public class XXXActivity extends CordovaExtActivity
   </tr>
   <tr>
     <td bgcolor=#00FF00>onPageFinished(String url)</td>
-    <td>当Web页面加载完成时的回调</td>
+    <td>当Web页面加载完成时的回调，该回调发生时表示页面DOMContentLoaded完成</td>
   <tr>
     <td bgcolor=rgb(0,10,0)>onPageError(int errorCode, String desc, String failingUrl)</td>
-    <td>当Web页面加载失败时的回调</td>
+    <td>当Web页面加载失败时的回调，sdk会显示默认的错误页面</td>
   </tr>
 </table>
 
@@ -186,19 +186,19 @@ public class XXXActivity extends CordovaExtActivity
   </tr>
   <tr>
     <td bgcolor=#eeeeee>notifyMessage(String data)</td>
-    <td>Web页面发送消息到Android端</td>
+    <td>Web页面发送消息到Android端，可以根据业务需要自定义data，该接口只是一个打通Web前端与Android端的通道</td>
   </tr>
   <tr>
     <td bgcolor=#00FF00>notifyLogInfo(String eventId, Map<String,String> map)</td>
-    <td>Web页面发送日志数据到Android端</td>
+    <td>Web页面发送日志数据到Android端，需要对接酷开系统LogSDK和酷开大数据后台</td>
   </tr>
   <tr>
     <td bgcolor=rgb(0,10,0)>notifyPageResume(String pageName, Map<String,String> map)</td>
-    <td>Web页面发送页面开始曝光通知到Android端</td>
+    <td>Web页面发送页面开始曝光通知到Android端，需要对接酷开系统LogSDK和酷开大数据后台</td>
   </tr>
   <tr>
     <td bgcolor=rgb(0,10,0)>notifyPagePause(String pageName)</td>
-    <td>Web页面发送页面结束曝光通知到Android端</td>
+    <td>Web页面发送页面结束曝光通知到Android端，需要对接酷开系统LogSDK和酷开大数据后台</td>
   </tr>
 </table>
 
@@ -209,11 +209,11 @@ public class XXXActivity extends CordovaExtActivity
   </tr>
   <tr>
     <td bgcolor=#eeeeee>String getBusinessData(String data)</td>
-    <td>Web页面需要获取返回数据的业务通道，sdk只是一个数据通道，传递参数data和返回值data，当返回值为空或""时，会抛出异常</td>
+    <td>Web页面需要获取返回数据的业务通道，sdk只是一个数据通道，传递参数data和返回值data，当返回值为空或""时，表示处理失败</td>
   </tr>
   <tr>
     <td bgcolor=#00FF00>boolean setBusinessData(String data)</td>
-    <td>Web页面不需要获取返回数据的业务通道</td>
+    <td>Web页面不需要获取返回数据的业务通道，某些业务并不需要获取返回值，但实现该接口时返回true表示处理成功，返回false表示处理失败</td>
   </tr>
 </table>
 
