@@ -15,7 +15,73 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >功能</th>
+    <th width=30%, bgcolor=yellow >表一</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取版本信息</td>
+    <td>包括酷开系统版本号，Android版本号</td>
+  </tr>
+  <tr>
+    <td bgcolor=#00FF00>获取设备信息</td>
+    <td>包括屏幕尺寸大小，机芯，机型，soc，激活id，设备id，EMMC，品牌</td>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>获取内存信息</td>
+    <td>包括总内存大小，剩余内存大小</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取空间信息</td>
+    <td>包括总空间大小，剩余空间大小</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取用户信息</td>
+    <td>包括sky_id,update_image_times,open_id,visit_num,accessToken，external_avatar等</td>
+  </tr>
+  <tr>
+    <td bgcolor=#00FF00>获取网络基本信息</td>
+    <td>包括dns，gateway，ip地址，mac地址，子网掩码</td>
+  </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>获取定位信息</td>
+    <td>如广东省，深圳市</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取网络连接状态</td>
+    <td>无</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取网络连接类型</td>
+    <td>WiFi或Ethernet</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>判断用户是否登录</td>
+    <td>无</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>退出当前登录</td>
+    <td>无</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>获取应用信息</td>
+    <td>根据包名获取应用版本信息，判断是否安装该应用，支持列表查询</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>获取WebViewSDK版本</td>
+    <td>获取当前集成的WebViewSDK的版本，不同的版本有不同的能力支持</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>获取酷开系统主题色</td>
+    <td>分深色和浅色两种</td>
+  </tr>
+    <tr>
+    <td bgcolor=#eeeeee>获取系统属性</td>
+    <td>根据属性的key值获取对应的value值</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th width=30%, bgcolor=yellow >表二</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
