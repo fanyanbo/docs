@@ -252,3 +252,26 @@ public class XXXActivity extends CordovaExtActivity
 
 ## 工程配置
 
+Android Studio工程build.gradle
+```
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile(name: 'ccExASystemWebViewSDK-debug', ext: 'aar')
+    compile(name: 'ccExACommonUISDK-debug', ext: 'aar')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+    compile files('libs/ccSkySDK.jar')
+    compile files('libs/ccUserServiceSDK.jar')
+}
+```
