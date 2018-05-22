@@ -159,6 +159,9 @@ public class XXXActivity extends CordovaExtActivity
     <td bgcolor=#eeeeee>loadUrl(String url, boolean isNeedBg, boolean isNeedBtn, FrameLayout errorPageBg)</td>
     <td>第二个参数决定是否带系统背景，第三个参数决定是否在错误页上显示“去连网”或“刷新试试”按钮，第四个参数决定是否采用默认的错误页面背景 </td>
   </tr>
+   <tr>
+    <th width=100%, bgcolor=yellow >表一</th>
+  </tr>
 </table>
 
 <table>
