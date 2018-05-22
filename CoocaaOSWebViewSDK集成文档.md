@@ -142,8 +142,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow > </th>
-    <th width=60%, bgcolor=yellow>说明</th>
+    <th width=50%, bgcolor=yellow > </th>
+    <th width=50%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void loadUrl(String url)</td>
@@ -164,8 +164,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >CordovaWebViewListener</th>
-    <th width=60%, bgcolor=yellow>说明</th>
+    <th width=50%, bgcolor=yellow >CordovaWebViewListener</th>
+    <th width=50%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void onPageStarted(String url)</td>
@@ -182,8 +182,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >CordovaWebPageListener</th>
-    <th width=60%, bgcolor=yellow>说明</th>
+    <th width=50%, bgcolor=yellow >CordovaWebPageListener</th>
+    <th width=50%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void notifyMessage(String data)</td>
@@ -205,8 +205,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >CordovaBusinessDataListener</th>
-    <th width=60%, bgcolor=yellow>说明</th>
+    <th width=50%, bgcolor=yellow >CordovaBusinessDataListener</th>
+    <th width=50%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>String getBusinessData(String data)</td>
@@ -220,8 +220,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >方法</th>
-    <th width=60%, bgcolor=yellow>说明</th>
+    <th width=50%, bgcolor=yellow >方法</th>
+    <th width=50%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void setCacheMode(int mode)</td>
