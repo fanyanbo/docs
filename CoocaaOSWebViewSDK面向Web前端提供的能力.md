@@ -93,11 +93,31 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
     <td>类似于获取获取应用信息</td>
   <tr>
     <td bgcolor=rgb(0,10,0)>启动在线播放</td>
-    <td>包括总内存大小，剩余内存大小</td>
+    <td>有两种方式启动播放，只支持全屏播放</td>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>启动下载任务</td>
     <td>包括总空间大小，剩余空间大小</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>启动账户界面</td>
+    <td>也是调用通用的Activity启动方法</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>启动网络设置界面</td>
+    <td>也是调用通用的Activity启动方法</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>启动主页界面</td>
+    <td>也是调用通用的Activity启动方法</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>启动应用圈界面</td>
+    <td>也是调用通用的Activity启动方法</td>
+  </tr>
+     <tr>
+    <td bgcolor=#eeeeee>...</td>
+    <td>...</td>
   </tr>
 </table>
 
