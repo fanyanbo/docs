@@ -52,8 +52,7 @@ public class XXXApplication extends SkyApplication{
         android:name=".XXXApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-	
-    ...
+	...
 ```
 
 跑覆盖率测试
