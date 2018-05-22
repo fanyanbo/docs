@@ -208,8 +208,8 @@ public class XXXActivity extends CordovaExtActivity
     <th width=60%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>String getBusinessData(String data)      </td>
-    <td>Web页面需要获取返回数据的业务通道</td>
+    <td bgcolor=#eeeeee>String getBusinessData(String data)</td>
+    <td>Web页面需要获取返回数据的业务通道，sdk只是一个数据通道，传递参数data和返回值data，当返回值为空或""时，会抛出异常</td>
   </tr>
   <tr>
     <td bgcolor=#00FF00>boolean setBusinessData(String data)</td>
