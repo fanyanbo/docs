@@ -89,6 +89,7 @@ public class XXXActivity extends CordovaExtActivity
         setCordovaWebPageListener(this);
 
         LOG.setLogLevel(LOG.VERBOSE);
+	setCacheMode(1); //设置缓存模式，非必须
 
         super.onCreate(savedInstanceState);
     }
@@ -142,8 +143,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow > </th>
-    <th width=50%, bgcolor=yellow>说明</th>
+    <th width=45%, bgcolor=yellow > </th>
+    <th width=55%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void loadUrl(String url)</td>
@@ -164,8 +165,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow >CordovaWebViewListener</th>
-    <th width=50%, bgcolor=yellow>说明</th>
+    <th width=45%, bgcolor=yellow >CordovaWebViewListener</th>
+    <th width=55%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void onPageStarted(String url)</td>
@@ -182,8 +183,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow >CordovaWebPageListener</th>
-    <th width=50%, bgcolor=yellow>说明</th>
+    <th width=45%, bgcolor=yellow >CordovaWebPageListener</th>
+    <th width=55%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void notifyMessage(String data)</td>
@@ -205,8 +206,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow >CordovaBusinessDataListener</th>
-    <th width=50%, bgcolor=yellow>说明</th>
+    <th width=45%, bgcolor=yellow >CordovaBusinessDataListener</th>
+    <th width=55%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>String getBusinessData(String data)</td>
@@ -220,8 +221,8 @@ public class XXXActivity extends CordovaExtActivity
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow >方法</th>
-    <th width=50%, bgcolor=yellow>说明</th>
+    <th width=45%, bgcolor=yellow >方法</th>
+    <th width=55%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>void setCacheMode(int mode)</td>
@@ -236,15 +237,15 @@ public class XXXActivity extends CordovaExtActivity
     <td>设置WebView的显示策略，0:100%-display,1:always-display，默认是0</td>
   </tr>
   <tr>
-    <td bgcolor=rgb(0,10,0)>void setCordovaWebViewListener(CordovaWebViewListener listener)</td>
+    <td bgcolor=rgb(0,10,0)>setCordovaWebViewListener(CordovaWebViewListener listener)</td>
     <td>实现CordovaWebViewListener接口时需要调用</td>
   </tr>
   <tr>
-    <td bgcolor=rgb(0,10,0)>void setCordovaWebPageListener(CordovaWebPageListener listener)</td>
+    <td bgcolor=rgb(0,10,0)>setCordovaWebPageListener(CordovaWebPageListener listener)</td>
     <td>实现CordovaWebPageListener接口时需要调用</td>
   </tr>
   <tr>
-    <td bgcolor=rgb(0,10,0)>void setCordovaBusinessDataListener(CordovaBusinessDataListener listener)</td>
+    <td bgcolor=rgb(0,10,0)>setCordovaBusinessDataListener(CordovaBusinessDataListener listener)</td>
     <td>实现CordovaBusinessDataListener接口时需要调用</td>
   </tr>
 </table>
