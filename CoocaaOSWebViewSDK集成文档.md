@@ -4,8 +4,9 @@ CoocaaOSWebViewSDK Android-App集成文档
 
 ## 基本介绍
 
-Nodeclub 是使用 **Node.js** 和 **MongoDB** 开发的社区系统，界面优雅，功能丰富，小巧迅速，
-已在Node.js 中文技术社区 [CNode(http://cnodejs.org)](http://cnodejs.org) 得到应用，但你完全可以用它搭建自己的社区。
+该**SDK**基于**Apache Cordova WebApp开源框架**，使用的浏览器内核为Android原生内核**后续会考虑多内核切换模式**。
+该**SDK**扩展了若干功能插件深度对接酷开系统，将酷开系统的能力提供给Web前端使用，它是基于酷开系统Web前端开发的核心支撑组件。
+集成该SDK的Android App具备展示Web页面的能力。
 
 ## 版本描述
 
