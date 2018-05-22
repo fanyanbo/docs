@@ -23,11 +23,11 @@ CoocaaOSWebViewSDK Android-App集成文档
 ```
 1. 建议采用Android Studio IDE进行开发
 2. 该SDK为aar，同时它依赖了多个酷开系统jar和aar，但目前没有打包到一个arr中，需要在工程libs下引用多个aar和jar
-3. 需要自定义XXXApplication，继承SkyApplication，同时在AndroidManifest.xml文件中配置android:name=".XXXApplication"
+3. 自定义XXXApplication，继承自SkyApplication，在AndroidManifest.xml文件中配置android:name=".XXXApplication"
 4. AndroidManifest.xml配置权限:   
    `<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>`
    `<uses-permission android:name="android.permission.INTERNET" />`
-5. 创建XXXActivity，集成CordovaExtActivity，在onCreate中调用loadUrl即可加载指定Web页面（建议在onSuperCmdInit中调用）
+5. 创建XXXActivity，继承自CordovaExtActivity，onCreate中调用loadUrl加载Web页面（建议在onSuperCmdInit中调用）
 ```
 
 ## 代码示例
