@@ -46,20 +46,32 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
     <td>如广东省，深圳市</td>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>获取网络连接状态/td>
+    <td bgcolor=#eeeeee>获取网络连接状态</td>
     <td>无</td>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>获取网络连接类型/td>
+    <td bgcolor=#eeeeee>获取网络连接类型</td>
     <td>无</td>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>判断用户是否登录/td>
+    <td bgcolor=#eeeeee>判断用户是否登录</td>
     <td>无</td>
   </tr>
    <tr>
-    <td bgcolor=#eeeeee>获取应用信息/td>
+    <td bgcolor=#eeeeee>获取应用信息</td>
     <td>根据包名获取应用版本信息，判断是否安装该应用，支持列表查询</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>获取WebViewSDK版本</td>
+    <td>获取当前集成的WebViewSDK的版本，不同的版本有不同的能力支持</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>获取酷开系统主题色</td>
+    <td>分深色和浅色两种</td>
+  </tr>
+    <tr>
+    <td bgcolor=#eeeeee>获取系统属性</td>
+    <td>根据属性的key值获取对应的value值</td>
   </tr>
 </table>
 
