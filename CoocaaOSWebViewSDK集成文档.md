@@ -12,6 +12,19 @@ CoocaaOSWebViewSDK Android-App集成文档
 
 ## 版本描述
 
+> ``历史更新参见各分支README文档`` [链接地址](https://github.com/fanyanbo/CoocaaOSWebViewSDK) <br/>
+```
+1. master分支：稳定版本分支
+2. release/v2.4.0分支：增加了View的集成方式，该分支不稳定，内测状态
+3. release/v2.5.0分支：稳定版本分支，除了不支持View方式集成外，目前具备最完善的功能
+4. release/jiangsu分支：稳定版本分支，供第三方（江苏）使用，裁剪部分使用不到的功能
+```
+ 
+ - **使用到的第三方库/版本/LICENSE说明**
+ > 此SDK为酷开系统的一部分, 采用了Cordova框架，基于原始Cordova框架之上做了修改，原始Cordova框架遵循 Apache License Version 2.0 开放源代码授权协议。
+
+- **联系方式**
+ > 樊彦博  电子邮件：fanyanbo@skyworth.com
 
 
 ## 集成说明
