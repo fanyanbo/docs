@@ -208,7 +208,7 @@ public class XXXActivity extends CordovaExtActivity
     <th width=60%, bgcolor=yellow>说明</th>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>String getBusinessData(String data)</td>
+    <td bgcolor=#eeeeee>String getBusinessData(String data)      </td>
     <td>Web页面需要获取返回数据的业务通道</td>
   </tr>
   <tr>
