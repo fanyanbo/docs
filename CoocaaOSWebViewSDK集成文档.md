@@ -16,9 +16,9 @@ CoocaaOSWebViewSDK Android-App集成文档
 
 ## 集成说明
 
-*兼容Android4.2及以上版本，建议在android-23及以上版本进行开发调试*
+*兼容Android4.2（android-17）及以上版本，建议在Android6.0（android-23）及以上版本进行开发调试*
 
-线上跑的是 [Node.js](https://nodejs.org) v4.4.0，[MongoDB](https://www.mongodb.org) 是 v3.0.5，[Redis](http://redis.io) 是 v3.0.3。
+集成该SDK时以下步骤非常关键，请仔细阅读：
 
 ```
 1. 安装 `Node.js[必须]` `MongoDB[必须]` `Redis[必须]`
