@@ -12,9 +12,9 @@
 
 <table>
   <tr>
-    <th width=40%, bgcolor=yellow >日志提交相关接口</th>
-    <th width=30%, bgcolor=yellow>描述</th>
-    <th width=30%, bgcolor=yellow>参数</th>
+    <th width=30%, bgcolor=yellow >日志提交相关接口</th>
+    <th width=35%, bgcolor=yellow>描述</th>
+    <th width=35%, bgcolor=yellow>参数</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>notifyJSLogInfo(eventId,data,function(message){},function(error){})</td>
