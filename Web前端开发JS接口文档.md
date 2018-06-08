@@ -22,13 +22,13 @@
     <td>coocaaosapi插件调用，提交自定义事件</td>
   </tr>
   <tr>
-    <td bgcolor=#00FF00>notifyJSLogResumeInfo(eventId,data,function(message){},function(error){})</td>
-    <td>当外接设备如U盘插拔时发送状态数据给Web前端，但前提是Web前端需要添加监听</td>
-    <td>coocaaosapi插件调用，提交自定义事件</td>
+    <td bgcolor=#00FF00>notifyJSLogResumeInfo(pageName,data,function(message){},function(error){})</td>
+    <td>coocaaosapi插件调用，提交页面曝光开始事件</td>
+    <td>pageName:需要统计曝光时长的自定义页面名称，data：字符串类型，如"{'key1':'value1','key2':'value2',...}"</td>
    </tr>
   <tr>
-    <td bgcolor=rgb(0,10,0)>notifyJSLogPauseInfo(eventId,function(message){},function(error){})</td>
-    <td>这跟具体业务相关，将预先定义好的口令以字符串（语音模块处理成字符串）的形式给Web前端，但前提是Web前端需要添加监听</td>
-    <td>coocaaosapi插件调用，提交自定义事件</td>
+    <td bgcolor=rgb(0,10,0)>notifyJSLogPauseInfo(pageName,function(message){},function(error){})</td>
+    <td>coocaaosapi插件调用，提交页面曝光结束事件</td>
+    <td>pageName:需要统计曝光时长的自定义页面名称。注意：这里开始事件和结束事件必须成对调用，否则统计不到曝光时长，并且pageName需要保持一致</td>
   </tr>
 </table>
