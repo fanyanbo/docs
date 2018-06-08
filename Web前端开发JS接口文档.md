@@ -1,11 +1,11 @@
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表三</th>
-    <th width=70%, bgcolor=yellow>详细描述</th>
+    <th width=60%, bgcolor=yellow >功能接口</th>
+    <th width=40%, bgcolor=yellow>描述</th>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>监听网络状态变化</td>
-    <td>当网络断开或连接时发送状态数据给Web前端，但前提是Web前端需要添加监听</td>
+    <td bgcolor=#eeeeee>coocaaosapi.notifyJSLogInfo(eventId,ddata,function(message) { },function(error) { console.log(error);})</td>
+    <td>aaaa</td>
   </tr>
   <tr>
     <td bgcolor=#00FF00>监听外接设备插拔变化</td>
