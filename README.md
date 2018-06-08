@@ -4,4 +4,4 @@
 
 ## CoocaaOSWebViewSDK面向Web前端提供的能力文档 [链接地址](https://github.com/fanyanbo/docs/blob/master/CoocaaOSWebViewSDK%E9%9D%A2%E5%90%91Web%E5%89%8D%E7%AB%AF%E6%8F%90%E4%BE%9B%E7%9A%84%E8%83%BD%E5%8A%9B.md)
 
-## Web前端开发JS接口文档 [链接地址](https://github.com/fanyanbo/docs/blob/master/CoocaaOSWebViewSDK%E9%9D%A2%E5%90%91Web%E5%89%8D%E7%AB%AF%E6%8F%90%E4%BE%9B%E7%9A%84%E8%83%BD%E5%8A%9B.md)
+## Web前端开发JS接口文档 [链接地址](https://github.com/fanyanbo/docs/blob/master/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91JS%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3.md)
