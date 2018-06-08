@@ -1,34 +1,31 @@
+## 集成说明
+
+*兼容Android4.2（android-17）及以上版本，建议在Android6.0（android-23）及以上版本进行开发调试*
+
+集成该SDK时请注意以下几点:
+
+```
+1. 如果开发的web页面需要对接酷开系统功能，则需集成酷开系统cordova前端框架，这样web才具备与酷开系统交互的能力
+2. 在调用酷开系统功能接口的js文件中，需要引用相应的功能插件
+3. 如需调用提交日志，获取设备信息等功能接口，在要提前引用cordova.require("coocaa-plugin-coocaaosapi.coocaaosapi");这样可使用coocaaosapi对象调用相应功能
+
+```
+
 <table>
   <tr>
-    <th width=60%, bgcolor=yellow >功能接口</th>
+    <th width=60%, bgcolor=yellow >日志提交接口</th>
     <th width=40%, bgcolor=yellow>描述</th>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee>coocaaosapi.notifyJSLogInfo(eventId,ddata,function(message) { },function(error) { console.log(error);})</td>
-    <td>aaaa</td>
+    <td bgcolor=#eeeeee>notifyJSLogInfo(eventId,ddata,function(message) {},function(error) {})</td>
+    <td>coocaaosapi插件调用，提交自定义事件</td>
   </tr>
   <tr>
-    <td bgcolor=#00FF00>监听外接设备插拔变化</td>
+    <td bgcolor=#00FF00>notifyJSLogResumeInfo(eventId,ddata,function(message) {console.log(message); },function(error) { console.log(error);});</td>
     <td>当外接设备如U盘插拔时发送状态数据给Web前端，但前提是Web前端需要添加监听</td>
    </tr>
   <tr>
-    <td bgcolor=rgb(0,10,0)>监听语音消息</td>
+    <td bgcolor=rgb(0,10,0)>coocaaosapi.notifyJSLogPauseInfo(eventId,function(message) {console.log(message); },function(error) { console.log(error);});</td>
     <td>这跟具体业务相关，将预先定义好的口令以字符串（语音模块处理成字符串）的形式给Web前端，但前提是Web前端需要添加监听</td>
-  </tr>
-  <tr>
-    <td bgcolor=#eeeeee>监听支付状态变化</td>
-    <td>当支付状态发生变化时发送数据给Web前端，但前提是Web前端需要添加监听</td>
-  </tr>
-   <tr>
-    <td bgcolor=#eeeeee>监听通用状态变化</td>
-    <td>根据不同的业务需求，Android端和Web端提前协商数据格式，当事件发生时Android端发送特定格式数据到Web端</td>
-  </tr>
-     <tr>
-    <td bgcolor=#eeeeee>监听下载任务状态变化</td>
-    <td>可监听下载成功，失败，进度等状态变化，但前提是Web前端需要添加监听</td>
-  </tr>
-     <tr>
-    <td bgcolor=#eeeeee>监听用户状态变化</td>
-    <td>当用户登录或退出时发送状态数据给Web前端，但前提是Web前端需要添加监听</td>
   </tr>
 </table>
