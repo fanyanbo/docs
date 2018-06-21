@@ -112,9 +112,13 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
     <td bgcolor=#eeeeee>启动主页界面</td>
     <td>也是调用通用的Activity启动方法</td>
   </tr>
-     <tr>
+  <tr>
     <td bgcolor=#eeeeee>启动应用圈界面</td>
     <td>也是调用通用的Activity启动方法</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>退出当前页面</td>
+    <td>退出当前页面，kill掉当前显示Web的Activity</td>
   </tr>
      <tr>
     <td bgcolor=#eeeeee>    ...</td>
@@ -182,24 +186,13 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
     <td bgcolor=#eeeeee>启动按菜单键</td>
     <td>在Web页面上按菜单键时，会通知到Web前端，需要设置监听</td>
   </tr>
-</table>
-
-<table>
-  <tr>
-    <th width=30%, bgcolor=yellow >表五</th>
-    <th width=70%, bgcolor=yellow>详细描述</th>
-  </tr>
-  <tr>
+    <tr>
     <td bgcolor=rgb(0,10,0)>监听Resume事件</td>
     <td>监听Resume事件，同Android Activity的生命周期</td>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>监听Pause事件</td>
     <td>监听Pause事件，同Android Activity的生命周期</td>
-  </tr>
-   <tr>
-    <td bgcolor=#eeeeee>退出当前页面</td>
-    <td>退出当前页面，本质是kill掉当前显示Web的Activity</td>
   </tr>
 </table>
 
