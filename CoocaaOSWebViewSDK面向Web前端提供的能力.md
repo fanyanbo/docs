@@ -227,7 +227,9 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 </table>
 
 ## Hybrid混合开发框架图
-![image][https://github.com/fanyanbo/docs/blob/master/pic/hybrid.png?raw=true]
+![image](https://github.com/fanyanbo/docs/blob/master/pic/hybrid.png?raw=true)
+
+![avatar](https://github.com/fanyanbo/docs/blob/master/pic/hybrid.png?raw=true)
 
 ## 版本描述
 
