@@ -1,6 +1,6 @@
 # docs
 
-## 1.基于酷开系统的WebOS架构文档 ：[链接地址](https://github.com/fanyanbo/docs/blob/master/Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91JS%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3.md)
+## 1.基于酷开系统的WebOS架构文档 ：[链接地址](https://github.com/fanyanbo/docs/blob/master/%E5%9F%BA%E4%BA%8E%E9%85%B7%E5%BC%80%E7%B3%BB%E7%BB%9F%E7%9A%84WebOS.md)
 
 ## 2.CoocaaOSWebViewSDK的Android App集成文档 ：[链接地址](https://github.com/fanyanbo/docs/blob/master/CoocaaOSWebViewSDK%E9%9B%86%E6%88%90%E6%96%87%E6%A1%A3.md)
 
