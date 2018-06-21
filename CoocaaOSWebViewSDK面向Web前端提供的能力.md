@@ -15,7 +15,7 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表一</th>
+    <th width=30%, bgcolor=yellow >表一(获取判断)</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
@@ -81,12 +81,12 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表二</th>
+    <th width=30%, bgcolor=yellow >表二(启动跳转)</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
     <td bgcolor=#eeeeee>启动Activity</td>
-    <td>封装的通用启动Activity方法，支持action启动，包名/类名启动，支持设置type，Uri参数，支持附加多键值对参数</td>
+    <td>封装的通用启动Activity方法，支持包名启动，action启动，包名/类名启动，支持设置type，Uri参数，支持附加多键值对参数</td>
   </tr>
   <tr>
     <td bgcolor=#00FF00>check应用信息</td>
@@ -124,7 +124,7 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表三</th>
+    <th width=30%, bgcolor=yellow >表三(消息监听)</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
@@ -159,7 +159,7 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表四</th>
+    <th width=30%, bgcolor=yellow >表四(按键监听)</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
@@ -170,14 +170,6 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
     <td bgcolor=#00FF00>监听按返回键up事件</td>
     <td>在Web页面上按遥控器返回键抬起时，会通知到Web前端，前提是需要监听返回键up事件</td>
    </tr>
-  <tr>
-    <td bgcolor=rgb(0,10,0)>监听Resume事件</td>
-    <td>监听Resume事件，同Android Activity的生命周期</td>
-  </tr>
-  <tr>
-    <td bgcolor=#eeeeee>监听Pause事件</td>
-    <td>监听Pause事件，同Android Activity的生命周期</td>
-  </tr>
    <tr>
     <td bgcolor=#eeeeee>监听按主页键</td>
     <td>在Web页面上按遥控器主页键时，会通知到Web前端，需要设置监听</td>
@@ -189,6 +181,55 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
      <tr>
     <td bgcolor=#eeeeee>启动按菜单键</td>
     <td>在Web页面上按菜单键时，会通知到Web前端，需要设置监听</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th width=30%, bgcolor=yellow >表五</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
+  </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>监听Resume事件</td>
+    <td>监听Resume事件，同Android Activity的生命周期</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>监听Pause事件</td>
+    <td>监听Pause事件，同Android Activity的生命周期</td>
+  </tr>
+   <tr>
+    <td bgcolor=#eeeeee>退出当前页面</td>
+    <td>退出当前页面，本质是kill掉当前显示Web的Activity</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th width=30%, bgcolor=yellow >表六(日志提交)</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
+  </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>提交自定义事件</td>
+    <td>可根据业务需求，自定义日志事件，并提交至酷开系统大数据后台</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>提交页面曝光时长</td>
+    <td可根据业务需求，并提交页面的光爆时长至酷开系统大数据后台，该功能有两个接口，需要成对调用，并保证页面名称一致</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th width=30%, bgcolor=yellow >表七(自定义业务)</th>
+    <th width=70%, bgcolor=yellow>详细描述</th>
+  </tr>
+  <tr>
+    <td bgcolor=rgb(0,10,0)>设置业务数据</td>
+    <td>建立Web前端与NativeApp的数据通道，满足设置数据的业务需求，分同步和异步两种方式</td>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee>获取业务数据</td>
+    <td>建立Web前端与NativeApp的数据通道，满足获取数据的业务需求，分同步和异步两种方式</td>
   </tr>
 </table>
 
