@@ -198,7 +198,7 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表六(日志提交)</th>
+    <th width=30%, bgcolor=yellow >表五(日志提交)</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
@@ -213,7 +213,7 @@ CoocaaOSWebViewSDK面向Web前端开发提供的能力
 
 <table>
   <tr>
-    <th width=30%, bgcolor=yellow >表七(自定义业务)</th>
+    <th width=30%, bgcolor=yellow >表六(自定义业务)</th>
     <th width=70%, bgcolor=yellow>详细描述</th>
   </tr>
   <tr>
